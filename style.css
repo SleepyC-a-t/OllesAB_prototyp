@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 
-
+:root{
+    --images_w: width: 75dvw;
+    --images_h: height: 20dvh;
+}
 
 body{
     width: 100%;
@@ -18,6 +21,7 @@ body{
 header{
     padding: 2rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -33,8 +37,20 @@ nav{
 main{
     flex-grow: 1;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: top;
     align-items: center;
+}
+
+.top_banner{
+    flex-grow: 1;
+    width: var(--images_w);
+    height: var(--images_h);
+}
+
+.texti{
+    width: var(--images_w);
+    height: var(--images_h);
 }
 
 footer{
