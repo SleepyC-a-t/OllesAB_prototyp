@@ -14,19 +14,25 @@ body{
     height: 100dvh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: top;
     align-items: center;
 }
 
 header{
+    width: 100%;
+    height: 11dvh;
     padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to right top, oklch(99.184% 0.0116 197.507), oklch(0% 0 0));
+    font-size: 2rem;
 }
 
 nav{
+    width: 100%;
+    height: 6dvh;
     padding: 1rem;
     display: flex;
     justify-content: center;
@@ -43,14 +49,26 @@ main{
 }
 
 .top_banner{
-    flex-grow: 1;
-    width: var(--images_w);
-    height: var(--images_h);
+    overflow: hidden;
+    width: 100%;
+    height: 25dvh;
+}
+
+.top_banner > img{
+    display: block;
+    width: 90dvw;
+    height: auto;
+    transform: translateY(-400px);
 }
 
 .texti{
-    width: var(--images_w);
+    width: 85dvw;
     height: var(--images_h);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
 }
 
 footer{
@@ -58,4 +76,18 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    background: rgb(210, 201, 201);
+    padding: 0.2rem 1rem;
+    border-radius: 0.1rem;
+    transition: all 0.15s ease-in-out;
+    border-radius: 5px;
+}
+
+a:hover{
+    background-color: rgb(128, 122, 122);
 }
