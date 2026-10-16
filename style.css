@@ -59,7 +59,7 @@ nav{
 
 .bar{
     width: 100dvw;
-    height: 10px;
+    height: 0.1rem;
     background: black;
 }
 
@@ -74,7 +74,7 @@ main{
 
 .top_banner{
     overflow: hidden;
-    width: 100%;
+    width: 90dvw;
     height: 25dvh;
 }
 
@@ -83,6 +83,12 @@ main{
     width: 90dvw;
     height: auto;
     transform: translateY(-40%);
+}
+
+.top_banner_om > img{
+    overflow: hidden;
+    width: 90dvw;
+    height: auto;
 }
 
 .texti{
