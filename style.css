@@ -37,6 +37,14 @@ header{
     align-items: center;
 }
 
+.title1 > a{
+    background: none;
+}
+
+.title1 a:hover{
+    background: none;
+}
+
 .title2{
     grid-column: 1/2;
     grid-row: 4/5;
@@ -109,10 +117,12 @@ main{
 }
 
 footer{
+    width: 100%;
     padding: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to right bottom, oklch(99.184% 0.0116 197.507), oklch(0% 0 0));
 }
 
 a{
