@@ -116,6 +116,17 @@ main{
     height: auto;
 }
 
+ol{
+    width: 80dvw;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 footer{
     width: 100%;
     padding: 2rem;
