@@ -161,3 +161,11 @@ a:hover{
     display: flex;
     flex-direction: column;
 }
+
+.fixed-textarea{
+    width: 60dvw;
+    height: 30dvh;
+    resize: none;
+
+    font-size: 1.2rem;
+}
